@@ -16,3 +16,4 @@ Các thành phần trong trang chủ:
 4. footer
  - logo
  - thông tin
+ - chèn thêm bản đồ vị trí được hong
