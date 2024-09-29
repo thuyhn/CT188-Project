@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/assets/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+
+        <title>ĐĂNG NHẬP</title>
+        <link rel="stylesheet" href="dangnhap.css">
+    </head>
+    <body class="page">
+        <header class="page-header">
+            <!-- <H1>
+                CHÀO MỪNG BẠN 
+            </H1> -->
+        </header>
+        <main class="page-container"> <!--flex container I-->
+            <form class="login" action="" method="post" encrype="application/x-www-form-urlencoded"> <!--flex item I, flex container I.1-->
+                <div class="login__box" > <!--flex item I.1.1 flex-container I.2-->
+                    <h1 class="login__box-title">Đăng nhập</h1> <!--flex item I.2.1-->
+                        
+                    <p class="login__box-info">Tên đăng nhập hoặc email</p> <!--flex item I.2.3-->
+                    <input class="login-text" type="text" name="login" placeholder="Tên đăng nhập..."> <!--flex item I.2.3-->
+                        
+                    <p class="login__box-info login__box-psw">Mật khẩu</p> <!--flex item I.2.4-->
+                    <input class="login-text psw-text" type="password" name="psw" placeholder="Mật khẩu..."> <!--flex item I.2.5-->
+                    <br>
+                    <div class="login__note "> <!--flex item I.2.6  flexcontainer I.3-->
+                        <input class="login__note-checkbox "type="checkbox" name="remember"><!--flex item I.3.1-->
+                        <p class="login__note-text  ">Nhớ đăng nhập</p>
+                        <a class="login__note-forgot-psw" href="">Quên mật khẩu?</a>  <!--flex item I.3.3-->
+                    </div>
+                        
+                    <br>
+                        
+                    <input class="login__box-btn" type="submit" value="Đăng nhập">
+                    <p class="login__box-sign-in">Chưa có tài khoản? <a href="dangky.html" class="signin-link">Đăng ký ngay</a></p> <!--flex item I.2.8-->
+                        
+                    <p class="login__box-or">Hoặc</p> <!--flex item I.2.9-->
+                    <div class="login__note"> <!--flex item I.2.10 flex-container-->
+                        <a class="login__box-google" href=""> <!--flex-item-->
+                            <i class="fa-brands fa-google"></i> Đăng nhập bằng Google
+                        </a>
+                        <a class="login__box-facebook" href=""> <!--flex-item-->
+                            <i class="fa-brands fa-facebook"></i>   Đăng nhập bằng Facebook
+                        </a>
+                    </div>
+                        
+                </div>
+            </form>
+            <div class="swap__image">
+                <img class="swap__image1" src="./images/banner/illustrate.jpg" alt="" >  <!--flex item II-->
+                <img class="swap__image2" src="./images/banner/illustrate4.jpg" alt="" >  <!--flex item II-->
+            </div>
+                
+        </main>
+        <footer class="page-footer">
+            <!-- <H1>CHÀO TẠM BIỆT</H1> -->
+        </footer>
+    </body>
+</html>
